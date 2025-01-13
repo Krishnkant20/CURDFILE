@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #21a6e844;
+
+    }
+    body h1{
+        margin-left: 33%;
+        color: red;
+        text-decoration: underline;
+        font-weight: bolder;
+    }
+    table{
+        margin: 70px;
+    }
+
+</style>
+<body onload="fetchData()">
+   
+    <h1>Appointment is Sucessfull</h1>
+    <table border="4" cellspacing="20px" cellpadding="20px">
+        
+   <thead>
+       <tr>
+           <th>Patient Name</th>
+           <th>Mobile Number</th>
+           <th>Doctor Name</th>
+           <th>Problem</th>
+           <th>Appointment Date</th>
+           <th>Appointment Time</th>
+           <th>Delete</th>
+           <th>UPDATE</th>
+       </tr>
+   </thead>
+
+     <tbody id="display">
+         
+     </tbody>
+
+
+     </table>
+
+     <div id="updateshow">
+
+     </div>
+
+
+   </section>
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="booking.js"></script>
+    
+</body>
+</html>

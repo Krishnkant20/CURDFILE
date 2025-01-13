@@ -1,0 +1,828 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.topheader{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color:#21a6e8f9;
+    color: #fff;
+    font-weight: bold;
+}
+/* ----------------------------------------navbar logo start from here */
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100px;
+}
+#navbar .logo {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    padding-top:30px ;
+
+
+}
+.logo i{
+    font-size: 35px;
+    color:#21a6e8f9 ;
+}
+.logo p{
+    font-size: 15px;
+    padding-left: 5px;
+    color:#21a6e8f9 ;
+
+}
+#navbar .logo span{
+padding-left: 5px;
+font-weight: bolder;
+}
+@media(max-width:450px){
+    #navbar{
+        width: 100%;
+    }
+    #navbar .logo{
+        padding-top: 35px;
+        padding-left: 0%;
+    }
+    #navbar .logo i{
+        font-size: 15px;
+    }
+    #navbar .logo p{
+        font-size: 10px;
+        padding-left: 3px;
+        font-weight: normal;
+    }
+    #navbar .logo span{
+    padding-left: 0px;
+    }
+}
+/* -----------------------------navbar-content */
+.nav-content{
+    padding-top: 30px;
+}
+.nav-content ul{
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+padding-left:300px;
+font-size: 19px;
+}
+.nav-content ul li{
+list-style: none;
+
+}
+.nav-content ul li a{
+text-decoration: none;
+color: black;
+font-weight: bolder;
+}
+.nav-content ul li a:hover{
+    color:#21a6e8f9;
+}
+
+/* ---------------------------button */
+.btn{
+    padding-top: 25px;
+}
+.btn button{
+    margin-left:200px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#fff;
+    border-color:#21a6e8f9;
+    font-weight: bolder;
+    background-color:#21a6e8;
+
+}
+.btn button:hover{
+    background-color:#21a6e8;
+    color:#fff;
+}
+
+@media(max-width:450px){
+    .nav-content ul{
+        padding-left: 25px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .btn button{
+        display: none;
+    }
+}
+/* -----------------------------------home page start from here */
+.home{
+    background-image: url(./dr4.png) ;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home p{
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 50px;
+}
+ .home i{
+    padding-left: 50px;
+    font-size: 20px;
+}
+.home button{
+    margin-top: 20px;
+    margin-left: 45px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#fff;
+    background-color: #21a6e8f9;
+    border-color:#21a6e8f9;
+    font-weight: bolder;
+}
+@media(max-width:450px){
+    .home p{
+        padding-top: 170px;
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    .home i{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .home button{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+}
+
+/*------------------------------ home--page 2nd */
+.Hbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 480px;
+}
+.hbox1{
+    width: 29%;
+    height: 270px;
+    border: 1px solid #fff;
+    margin-top: 100px;
+    margin-left: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow:0px 15px 20px rgba(0,0,0,0.2);
+}
+.hbox1:hover{
+    scale: 1.1;
+    background-color: #21a6e841;
+}
+
+.hbox1 h1{
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.hbox1 p{
+  margin-top: 10px;  
+  margin-left: 20px;
+  font-size: 20px;
+}
+.hbox1 p span{
+    color: #21a6e8f9;
+}
+.hbox1 p i{
+    padding-left: 3px;
+    font-size: 16px;
+    color: #21a6e8f9;
+}
+@media(max-width:450px){
+    .Hbox{
+        width: 100%;
+        height: 1200px;
+    }
+    .hbox1{
+        width: 80%;
+    }
+    .hbox1 h1{
+    font-size: 25px;
+    }
+    .hbox1 p{
+    font-size: 18px;
+    }
+
+}
+
+/* -----------------------------------about us page css start */
+#about{
+    width: 100%;
+    height: 150vh;
+    background-color: #21a6e839;
+}
+#about h1{
+    padding-left: 45%;
+    padding-top: 5%;
+}
+#about p{
+    padding-left: 30%;
+    padding-top: 2%;
+    font-size: 40px;
+}
+
+.double{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about1{
+    margin-top: 5%;
+    margin-left: 3%;
+    border-radius: 10px;
+}
+.about1 img{
+    border-radius: 15px;
+}
+.about2{
+    margin-top: 12%;
+    margin-left: 3%;
+
+}
+.about2 h3{
+    font-size: 17px;
+    color: grey;
+}
+.about2 button{
+    margin-top: 10%;
+    padding: 14px;
+    font-size: 17px;
+    color: #21a6e8fe;
+    border-color: #21a6e8e1;
+    font-weight: bolder;
+}
+@media(max-width:450px){
+    #about{
+        width: 100%;
+        height: 1300px;
+    }
+    #about p{
+        font-size: 15px;
+    }
+    .about1 img{
+        width: 90%;
+        margin-left:0%;
+    }
+    .about2{
+        width: 100%;
+    }
+    .about2 h2{
+     font-size: 15px;
+    }
+    .about2 h3{
+        font-size: 15px;
+    }
+}
+/* --------------------------------------------next page */
+#sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    padding-left: 80px;
+}
+.mainsec{
+    position: absolute;
+}
+
+/* --------------------------------------------- */
+.first{
+    width: 150px;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-top: 50px;
+    margin-left: 280px;
+}
+.first img{
+    margin-left: 25px;
+}
+.first  h6 span{
+    margin-left: 30px;
+}
+.first h6{
+    color: red;
+
+}
+/* ------------------------------------------ */
+.second{
+    width: 150px;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.second img{
+    margin-left: 25px;
+}
+.second h6{
+    color: red;
+
+}
+/* --------------------------------------- */
+.third{
+    width: 170px;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    margin-left: 70px;
+
+}
+.third img{
+    margin-left: 25px;
+}
+.third h6{    color: red;
+}
+/* --------------------------------------- */
+.fourth{
+    width: 150px;
+    height: 20%;
+    /* border: 1px solid black; */
+    margin-top: 65px;
+    margin-left: 280px;
+}
+.fourth img{
+    margin-left: 25px;
+}
+.fourth h6{
+    color: red;
+
+}
+
+@media(max-width:450px){
+    .first{
+        margin-left:100px;
+    }
+    .second{
+        margin-left: 100px;
+    }.third{
+        margin-left: 100px;
+    }.fourth{
+        margin-left: 100px;
+    }
+}
+
+/* -------------------------------------div 2nd */
+.lady{
+    margin-top: 80px;
+    margin-left: 405px;
+}
+@media(max-width:450px){
+    #sec{
+        width: 100%;
+        height: 1800px;
+    }
+    .lady img{
+        display: none;
+    }
+}
+/*---------------------------------------- div 3rd */
+.lastone{
+  width: 150px;
+  height: 18%;
+  /* border: 1px solid black; */
+  margin-top: 50px;
+
+}
+.lastone img{
+    margin-left: 25px;
+}
+.lastone h6{
+    margin-left: 25px;
+    color: red;
+
+}
+/* --------------------------------------- */
+.lasttwo{
+    width: 150px;
+    height: 18%;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-left: 200px;
+  }
+  .lasttwo img{
+    margin-left: 25px;
+}
+.lasttwo h6{
+    margin-left: 15px;
+    color: red;
+
+}
+  /* ------------------------------------ */
+  .lastthree{
+    width: 150px;
+    height: 18%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  .lastthree img{
+    margin-left: 25px;
+}
+.lastthree h6{
+    margin-left: 15px;
+    color: red;
+
+}
+  /* ------------------------------------- */
+  .lastfor{
+    width: 150px;
+    height: 18%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    background-color: #fff;
+  }
+  .lastfor img{
+    margin-left: 25px;
+}
+.lastfor h6{
+    margin-left: 39px;
+    color: red;
+}
+@media(max-width:450px){
+    .lastone{
+        margin-left: 100px;
+    }.lasttwo{
+        margin-left: 100px;
+    }.lastthree{
+        margin-left: 100px;
+    }.lastfor{
+        margin-left: 100px;
+    }
+}
+/* -------------------------------------------PAGE THIRD CSS */
+.page3rd{
+    width: 100%;
+    height: 100vh;
+}
+.page3rd p{
+ padding-left: 43%;
+ padding-top: 40px;
+ color: gray;
+}
+.page3rd h1{
+    padding-left: 35%;
+    font-size: 40px;
+}
+.starting{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.start1{
+    width: 370px;
+    height: 440px;
+    margin-left: 60px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 10px 20px 20px 25px rgba(0,0,0,0.2);
+}
+
+.start1 h3{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.start1 h6{
+    margin-left: 10px;
+    font-size: 17px;
+    padding-top: 15px;
+    color: gray;
+}
+.start1 h6 span{
+    color: #21a6e8;
+}
+.start1 h6 i{
+    padding-left: 5px;
+    font-size: 15px;
+    color: #21a6e8;
+}
+@media(max-width:450px){
+    .page3rd{
+        width: 100%;
+        height: 1600px;
+    }
+    .page3rd p{
+        padding-left: 170px;
+    }
+    .page3rd h1{
+        padding-left: 100px;
+        font-size: 28px;
+    }
+    .starting{
+        margin-left: 3px;
+    }
+
+
+}
+/* -------------------------------------blue div---------------------------------- */
+.blue{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    background-color: #21a6e8;
+}
+.blue h1{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+.blue button{
+    float: right;
+    margin-top: -75px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 15px;
+    color: #fff;
+    background-color: #21a6e8;
+    border-color: #fff;
+    font-weight: bolder;
+}
+.blue button:hover{
+    background-color: #fff;
+    color: #21a6e8;
+}
+@media(max-width:450px){
+    .blue h1{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .blue button{
+        margin-top: 30px;
+        margin-right: 130px;
+        font-size: 15px;
+    }
+}
+
+/* ----------------------------------------choose us page css */
+.choose{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 130vh;
+}
+.choose1{
+    margin-top: 220px;
+    margin-left: 90px;
+}
+.choose1 h1{
+    font-size: 50px;
+}
+.choose1 h6{
+    font-size: 25px;
+}
+.choose1 p{
+    font-size: 18px;
+    color: gray;
+}
+.choose2 img{
+    padding-top: 90px;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+@media(max-width:450px){
+    .choose{
+        width: 100%;
+        height: 1500px;
+    }
+    .choose1{
+        margin-top: 20%;
+     margin-left:10%;
+    }
+    .choose2 img{
+        padding-top:10px;
+        width: 100%;
+    }
+}
+/* ..................................rating page........................... */
+.rating{
+    width: 100%;
+    height: 100vh;
+}
+.rats{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rating h6{
+padding-left: 45%;
+font-size: 20px;
+padding-top: 30px;
+}
+.rating h1{
+    padding-left: 35%;
+    font-size: 40px;
+}
+.rat1{
+    width: 20%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.rat1 img{
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.rat1 h4{
+   padding-top: 8px;
+   font-size: 22px;
+}
+.rat1 p{
+    padding-top: 7px;
+    font-size: 17px;
+    color: gray;
+}
+@media(max-width:450px){
+    .rating{
+        width: 100%;
+        height: 2000px;
+    }
+    .rating h6{
+        padding-left: 150px;
+    }
+    .rating h1{
+        font-size: 25px;
+        padding-left: 90px;
+    }
+    .rat1{
+        margin-left: 85px;
+        width: 60%;
+    }
+   
+}
+/* .....................................last second page css */
+.lastsecond{
+    width: 100%;
+    height: 100vh;
+}
+.lastsecond h6{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 60px;
+    color: gray;
+}
+.lastsecond h1{
+    font-size: 40px;
+    padding-left: 55px;
+    padding-top: 15px;
+}
+.mainbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Mbox1{
+    width: 40%;
+    height: 200px;
+    border: 1px solid black; 
+    margin-left: 55px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.Mbox1 p{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: gray;
+}
+.Mbox1 p i{
+    color: orange;
+}
+.Mbox1 .img1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.Mbox1 .img1 img{
+    border-radius: 50%;
+}
+.img1 h4{
+    margin-top: 7px;
+    margin-left: 7px;
+    columns: gray;
+}
+@media(max-width:450px){
+    .lastsecond{
+        width: 100%;
+        height: 1500px;
+    }
+    .lastsecond h6{
+        padding-left: 160px;
+    }
+    .lastsecond h1{
+        font-size: 25px;
+        padding-left: 70px;
+    }
+    .Mbox1{
+        width: 80%;
+        height: 250px;
+    }
+}
+
+
+/* ................................................footbar start */
+.end{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    background-image: url(./foot3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.foot h1{
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 60px;
+    color: #fff;
+}
+.foot p{
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #fff;
+    font-size: 20px;
+}
+.end h6{
+    margin-top: 170px;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 25px;
+}
+@media(max-width:450px){
+    .foot p{
+        font-size: 12px;
+    }
+    .end h6{
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 40px;
+
+    }
+}
+/*****************************************ending page css */
+.endingpage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 370px;
+}
+.end1st{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.end1st p{
+    color: rgba(0, 0, 0, 0.729);
+}
+.end1st p span{
+    color: rgba(0, 0, 0, 0.899);
+}
+.end1st i{
+    font-size: 35px;
+    color: #21a6e8;
+}
+.endmain h6{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.659);
+}
+/* ************************************************** */
+.end2nd{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.end2nd h6{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.873);
+}
+.end2nd p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.659);
+}
+
+.marq{
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
